@@ -2,6 +2,8 @@
 Desafio para vaga de Engenheiro de dados Júnior
 Link Colab: https://colab.research.google.com/drive/1eR4OX82b6IEu_deO3k_P__C0ZDVC_c9N#scrollTo=8twmXZA6E6Xh
 
+Colab nao esta sendo lido corretamente, compartilhei um arquivo copiado pelo vscode
+
 Desafio:
 
 O presente problema se refere aos dados de uma empresa que produz bicicletas. 
