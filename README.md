@@ -1,8 +1,8 @@
 # Desafio-Rox
 Desafio para vaga de Engenheiro de dados Júnior
-Link Colab: https://colab.research.google.com/drive/1KOlwNNPJVUDH2ZaCFadimod4qYKAcRhq
 
-Colab nao esta sendo lido corretamente, compartilhei um arquivo copiado pelo vscode
+Colab nao esta sendo lido corretamente pelo github, link abaixo:
+Link Colab: https://colab.research.google.com/drive/1KOlwNNPJVUDH2ZaCFadimod4qYKAcRhq
 
 Desafio:
 
