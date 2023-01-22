@@ -45,21 +45,24 @@ Todo o código do colab está comentado passo a passo. Abaixo vou descrever de f
 
 Decidi usar a GCP como serviço de nuvem pública, para a infraestrutura necessária para a realização do desafio eu criei: 
 
-- conta de serviço através do IAM (chave JSON)
-- instância do mysql
-- database chamado bicicletas através do SHELL
-- usuário do mysql através do console
+- conta de serviço através do IAM (chave JSON) (enviada junto com o projeto)
+- instância do mysql 
+- database chamado bicicletas 
+- usuário do mysql através 
 - acesso ao ip da instância do colab
 - bucket para armazenamento dos arquivos do desafio e arquivos salvos
 
+fotos na pasta img de todo o processo gcp
+
 Já no colab agrupei os dfs por módulo de tarefa, iniciei minhas análises usando o spark e anotando alguma inconsistências ou erros, após essa análise inicial criei o df para cada arquivo identificado como df_nome_arquivo pelo pandas, fiz alterações quando necessário, nem todos os dfs precisaram de tratamento, após isso conectei com a instância do MYsql na gcp ao colab e enviei os arquivos como tabela mas ainda sem relacionamento, uma vez que todos os df estão dentro do mysql fiz as ligações de Primary key e Foreign key.
 
-Após validação de todas as PKs e FKs fiz as 5 querys do desafio no colab, depois de voltar algumas vezes nesse passo e tratar tudo que precisava, o próximo passo foi salvar esses arquivos no bucket na pasta TRUSTED 
+Após validação de todas as PKs e FKs fiz as 5 querys do desafio no colab, depois de voltar algumas vezes nesse passo e tratar tudo que precisava, o próximo passo foi salvar esses arquivos no bucket na pasta TRUSTED (fotos na pasta)
 
-Voltando para a gcp no big query, criei o database bicicletasbigquery, importei os arquivos do bucket TRUSTED e refiz a mesma query que fiz no colab agora na gcp para comparar os resultados.
+Voltando para a gcp no big query, criei o database bicicletasbigquery, importei os arquivos do bucket TRUSTED e refiz a mesma query que fiz no colab agora na gcp para comparar os resultados.(fotos na pasta)
 
 Anotações e comentários.
 
 - Precisei ajustar a coluna de ID do arquivo Sales.SpecialOfferProduct
 
-- A ideia seria conectar direto do mysql e bigquery mas nao consegui finalizar esse passo então fiz o upload pelo bucket e não diretamente pela instância
+- A ideia seria conectar direto do mysql e bigquery mas nao consegui finalizar esse passo então fiz o upload pelo bucket e não diretamente pela instância 
+fotos das querys na pasta img.
