@@ -1,5 +1,6 @@
 # Desafio-Rox
 Desafio para vaga de Engenheiro de dados Júnior
+Link Colab: https://colab.research.google.com/drive/1eR4OX82b6IEu_deO3k_P__C0ZDVC_c9N#scrollTo=8twmXZA6E6Xh
 
 Desafio:
 
@@ -39,7 +40,6 @@ Com base na solução implantada responda aos seguintes questionamentos:
 
 Todo o código do colab está comentado passo a passo. Abaixo vou descrever de forma geral todo o processo e quando necessário algumas imagens.
 
-Link Colab: https://colab.research.google.com/drive/1eR4OX82b6IEu_deO3k_P__C0ZDVC_c9N#scrollTo=8twmXZA6E6Xh
 
 Decidi usar a GCP como serviço de nuvem pública, para a infraestrutura necessária para a realização do desafio eu criei: 
 
